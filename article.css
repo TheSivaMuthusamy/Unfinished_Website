@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(235,235,235);
+}
+
+#wrapper {
+    font-family: 'Open Sans', sans-serif;
+    width: 1080px; 
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.home {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    padding-bottom: 7px;
+}
+
+.home a {
+    text-decoration: none;
+    color: white; 
+}
+
+nav {
+    padding: 20px 0 20px 0;
+    background-color: rgb(119, 136, 153);
+    background-clip: padding-box;
+    margin-bottom: 45px;
+}
+
+.nav {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+    width: 20%;  
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.nav li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 7px 0 8px 0;
+    margin: 0;
+    display: block;
+    font-weight: 800;
+}
+
+.nav li a:hover {
+    color: black;
+    background-color: rgb(242,242,242);
+}
+
+section {
+    width: 880px;
+    margin: 0 auto 45px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.article-text {
+    width: 80%;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+footer {
+     text-align: center;
+     background-color: black; 
+     color: white;
+     font-size: 10px;
+     padding: 20px 0 20px 0; 
+     background-clip: padding box;
+ }
+
+footer p:nth-child(2) {
+     margin-bottom: 0;
+ }
